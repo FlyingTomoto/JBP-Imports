@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -146,5 +147,9 @@ footer {
 
 .btmnav li {
   padding: 0rem 1rem;
+}
+
+.btmnav a {
+  color: #636363;
 }
 /*# sourceMappingURL=style1.css.map */
