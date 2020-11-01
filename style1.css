@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url(/jbp-imports/IMGS/fezbot2000-0AIcmKYLMBI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0rem -20rem;
+  min-height: 100vh;
+}
+
+.topbar {
+  min-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1c201c;
+  color: white;
+}
+
+.nav {
+  min-width: 95vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo img {
+  width: 10rem;
+  height: auto;
+}
+
+.hero h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -25%);
+          transform: translate(-50%, -25%);
+}
+
+.hero a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+          transform: translate(-50%, -40%);
+  padding: 0.35rem 1.2rem;
+  border: 0.1rem solid #FFFFFF;
+  margin: 0 0.3rem 0.3rem 0;
+  border-radius: 0.1rem;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #FFFFFF;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.hero a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+footer {
+  min-height: 2rem;
+  min-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 0%;
+  background-color: #1c201c;
+}
+
+.btmnav {
+  min-width: 100vw;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #636363;
+}
+
+.btmnav li {
+  padding: 0rem 1rem;
+}
+/*# sourceMappingURL=style1.css.map */
