@@ -8,12 +8,52 @@
   text-decoration: none;
 }
 
+.intro {
+  background: black;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-text {
+  color: white;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  display: inline-block;
+}
+
 body {
+  background: black;
+  z-index: 1;
+}
+
+.main {
   background: url(/jbp-imports/IMGS/fezbot2000-0AIcmKYLMBI-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0rem -20rem;
   min-height: 100vh;
+  z-index: 2;
 }
 
 .topbar {
@@ -74,15 +114,15 @@ body {
 .hero h2 {
   color: white;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 50%;
-  -webkit-transform: translate(-50%, -25%);
-          transform: translate(-50%, -25%);
+  -webkit-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
 }
 
 .hero a {
@@ -143,6 +183,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   color: #636363;
+  font-size: 1rem;
 }
 
 .btmnav li {
@@ -151,5 +192,43 @@ footer {
 
 .btmnav a {
   color: #636363;
+}
+
+@media (max-width: 500px) {
+  /* Mobile In Portrait */
+  .intro-text {
+    padding-left: 1rem;
+  }
+  .nav a {
+    font-size: 0.75rem;
+  }
+  .logo img {
+    width: 7rem;
+    height: auto;
+  }
+  .main {
+    background: url(/jbp-imports/IMGS/fezbot2000-0AIcmKYLMBI-unsplash.jpg);
+    min-height: 100vh;
+    background-size: 75rem;
+    background-repeat: no-repeat;
+    background-position: -15rem 0rem;
+  }
+  .hero h2 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px black;
+  }
+  .hero a {
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .btmnav {
+    font-size: 0.75rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 /*# sourceMappingURL=style1.css.map */
